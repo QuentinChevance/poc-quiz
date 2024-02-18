@@ -16,14 +16,13 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+html, body {
+  height: 100%;
+  background-color: #e5e5f7;
+  opacity: 1;
+  background-image:  radial-gradient(#444cf7 0.8500000000000001px, transparent 0.8500000000000001px), radial-gradient(#444cf7 0.8500000000000001px, #e5e5f7 0.8500000000000001px);
+  background-size: 34px 34px;
+  background-position: 0 0,17px 17px;
 }
 
 @layer utilities {
